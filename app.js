@@ -432,5 +432,238 @@
 // let arr = [1, 4, 2, 5, 7, 5, 3, 5, 3];
 // arr.splice(3, arr.length - 1);
 // console.log(arr.reverse());
+let res;
+// FOREACH
+// 1
+// let arr2 = [];
+// let arr1 = [1, 3, 4, 5];
+// res = arr1.forEach((value) => {
+//   arr2.push(value * 2);
+// });
+// console.log(arr2);
+
+// 2
+// let arr2 = [];
+// let arr1 = [1, -3, 4, 5];
+// res = arr1.forEach((value) => {
+//   if (value > 0) {
+//     arr2.push(value);
+//   }
+// });
+// console.log(arr2);
+
+// 3
+// let arr2 = [];
+// let arr1 = [1, -3, 4, 5];
+// res = arr1.forEach((value) => {
+//   value = value * 2;
+//   arr2.push(value);
+// });
+// console.log(arr2);
+
+// 4
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+// arr.forEach(function (value) {
+//   sum = sum + value;
+// });
+// console.log(sum);
+
+// FILTER
+
+// 1
+// let arr2 = [];
+// let arr1 = [1, -3, 4, 5];
+// res = arr1.filter((value) => {
+//   if (value > 0) {
+//     arr2.push(value);
+//   }
+// });
+// console.log(arr2);
+
+// 2
+// let arr2 = [];
+// let arr1 = [1, -3, 4, 5];
+// res = arr1.filter((value) => {
+//   if (value % 2 == 0) {
+//     arr2.push(value);
+//   }
+// });
+// console.log(arr2);
+
+// 3
+// let arr2 = [];
+// let arr1 = [`not`, `blmpoint`, `btc`, `toncoin`, `usdt`];
+// res = arr1.filter((value) => {
+//   if (value.length > 5) {
+//     arr2.push(value);
+//   }
+// });
+// console.log(arr2);
+
+// 4
+// let users18 = [];
+// let users = [
+//   { name: `Alex`, age: 21 },
+//   { name: `Steeve`, age: 15 },
+//   { name: `John`, age: 18 },
+// ];
+// res = users.filter((value, index) => {
+//   if (value.age >= 18) {
+//     users18.push(value);
+//   }
+// });
+// console.log(users18);
+
+// MAP
+// 1
+// let arr = [2, 5, 7, 3];
+// res = arr.map((value) => {
+//   return value * 2;
+// });
+// console.log(res);
+
+// 2
+// let arr = [2, 5, 7, 3];
+// res = arr.map((value) => {
+//   return value + 5;
+// });
+// console.log(res);
+
+// 3
+// let arr = [`dodge`, `chevrolet`, `corvette`];
+// res = arr.map((value) => {
+//   return value.toUpperCase();
+// });
+// console.log(res);
+
+// 4
+// let arr = [2, 5, 7, 3];
+// res = arr.map((value) => {
+//   return value ** 2;
+// });
+// console.log(res);
+
+// SOME/EVERY
+
+// 1
+// let arr = [1, 2, 3, -5];
+// res = arr.some((value) => {
+//   return value < 0;
+// });
+// console.log(res);
+
+// 2
+// let arr = [`dodge`, `toyota`, `peel`, `tahoe`, `ford mustang`];
+// res = arr.some((value) => {
+//   return value.length > 10;
+// });
+// console.log(res);
+
+// 3
+// let arr = [1, 2, 3, -5];
+// res = arr.every((value) => {
+//   return value < 0;
+// });
+// console.log(res);
+
+// 4
+
+// Umumiy
+// 1
+// let arr = [2, 4, 1, 5];
+// console.log(arr.includes(2));
+
+// 2
+// let arr = [2, 4, 1, 5];
+// console.log(arr.indexOf(2));
+
+// 3
+// let arr = [2, 1, 4, 1, 5];
+// console.log(arr.lastIndexOf(1));
+
+// 4
+// let arr = [2, 1, 4, 1, 5];
+// res = arr.find((value) => {
+//   return value >= 4;
+// });
+// console.log(res);
+
+// 5
+// let arr = [2, 1, 4, 1, 5];
+// res = arr.findIndex((value) => {
+//   return value >= 4;
+// });
+// console.log(res);
+
+// 6
+// let arr = [2, 1, 4, 1, 5];
+// res = arr.findLast((value) => {
+//   return value >= 4;
+// });
+// console.log(res);
+
+// 7
+// let arr = [2, 1, 4, 1, 5];
+// res = arr.findLastIndex((value) => {
+//   return value >= 4;
+// });
+// console.log(res);
+
+// 8
+// let arr = [2, 1, 4, 1, 5];
+// console.log(arr.reverse());
+
+// 9
+// let arr = [2, 1, 4, 1, 5];
+// let = arr2 =[]
+// res = arr.sort((a, b) => {
+//   return b - a;
+// });
+// console.log(res);
+
+// 10
+// let arr = [2, 1, 4, 1, 5];
+// res = arr.forEach((value) => {
+//   console.log(value * 2);
+// });
+
+// 11
+// let arr = [2, 1, -4, 1, 5];
+// let arr2 = [];
+// res = arr.filter((value) => {
+//   if (value > 0) {
+//     arr2.push(value);
+//   }
+// });
+// console.log(arr2);
+
+// 12
+// let arr = [2, 1, -4, 1, 5];
+// res = arr.map((value) => {
+//   return value ** 2;
+// });
+// console.log(res);
+
+// 13
+// let arr = [2, 1, -4, 1, 5];
+// res = arr.some((value) => {
+//   return value < 0;
+// });
+// console.log(res);
+
+// 14
+// let arr = [2, 1, -4, 1, 5];
+// res = arr.every((value) => {
+//   return value > 0;
+// });
+// console.log(res);
 
 // 15
+// let arr = [2, 1, -4, 1, 5];
+// res = arr.filter((value) => {
+//   if (value * 3 > 10) {
+//     return value * 3;
+//   }
+// });
+// console.log(res);
