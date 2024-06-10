@@ -997,3 +997,17 @@ let res;
 // stringToUnicodeArray(arr);
 
 // 5
+// let str = `stirng`;
+// function includesCat(str = ``) {
+//   return str.includes(`cat`);
+// }
+// console.log(includesCat(str));
+
+// 6
+// let str = `stirng`;
+// function includes2024(str = ``) {
+//   return str.includes(`2024`);
+// }
+// console.log(includes2024(str));
+
+// 7
