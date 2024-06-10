@@ -667,3 +667,333 @@ let res;
 //   }
 // });
 // console.log(res);
+
+// const car = [
+//   { name: "Matiz", year: 2020, weight: 1250 },
+//   { name: "Spark", year: 2010, weight: 1250 },
+//   { name: "buggati", year: 2005, weight: 3250 },
+//   { name: "Tank", year: 2007, weight: 10000 },
+// ];
+// let sum = 0;
+// res = car.filter((value) => {
+//   if (value.weight >= 2000) {
+//     return (sum += value.weight);
+//   }
+// });
+// console.log(sum);
+
+// let sum = 0;
+// function sumOfArray(arr1, arr2, arr3) {
+//   res = arr1.forEach((value) => {
+//     sum += value;
+//   });
+//   res += arr2.forEach((value) => {
+//     sum += value;
+//   });
+//   res += arr3.forEach((value) => {
+//     sum += value;
+//   });
+//   return sum;
+// }
+// console.log(sumOfArray([2, 4, 5], [3, 6, 4], [2, 5, 3]));
+
+//
+
+// let user = {
+//   name: `pomidorchik`,
+//   age: 15,
+//   family: {
+//     mom: `ogurchik`,
+//     father: `kartoshkin`,
+//     aboutFamily: function () {
+//       console.log(this);
+//     },
+//   },
+//   about: function () {
+//     console.log(`i'm pomidorchik`);
+//   },
+// };
+// user.family.aboutFamily();
+
+//
+
+// let str = `       bombo klab      `;
+// console.log(str.length);
+// console.log(str.charAt(2));
+// console.log(str.at(4));
+// console.log(str.charCodeAt(9));
+// console.log(str.slice(2, 4));
+// console.log(str.substring(2, 4));
+// console.log(str.substr(0, 4));
+// console.log(str.trimEnd());
+
+// 1
+// let str = `str`;
+// res = (str) => {
+//   return str.at(-1);
+// };
+// console.log(res(str));
+
+// 2
+// let str = `str`;
+// res = (str) => {
+//   return str.at(str.length / 2);
+// };
+// console.log(res(str));
+
+// 3
+// let str = `str`;
+// res = (str) => {
+//   return str.charCodeAt(0);
+// };
+// console.log(res(str));
+
+// 4
+// let str = `sweg`;
+// function getStringLengthDescription(str) {
+//   if (str.length >= 10) {
+//     console.log(`Uzoq string`);
+//   } else {
+//     console.log(`Qisqa string`);
+//   }
+// }
+// getStringLengthDescription(str);
+
+// 5
+// let str = `sweg`;
+// function getCharCodes(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     console.log(str.charCodeAt(i));
+//   }
+// }
+// getCharCodes(str);
+
+// 1
+// let index = ` string`;
+// function getFirstThreeChars(str) {
+//   return str.slice(1, 4);
+// }
+// console.log(getFirstThreeChars(index));
+
+// 2
+// let index = `string messenger`;
+// function getLastFiveChars(str) {
+//   return str.slice(str.length - 5, str.length);
+// }
+// console.log(getLastFiveChars(index));
+
+// 3
+// let index = `string messenger`;
+// function getLastFiveChars(str) {
+//   return str.slice(str.length / 2 - 2, str.length / 2 + 3);
+// }
+// console.log(getLastFiveChars(index));
+
+// 4
+// let index = `string messenger`;
+// function getThreeCharsFromFifthIndex(str) {
+//   return str.slice(6, 9);
+// }
+// console.log(getThreeCharsFromFifthIndex(index));
+
+// 5
+// let index = `string messenger`;
+// function getFirstTenChars(str) {
+//   return str.slice(0, 10);
+// }
+// console.log(getFirstTenChars(index));
+
+// 6
+// let index = `string messenger`;
+// function getLastThreeChars(str) {
+//   return str.slice(str.length - 3, str.length);
+// }
+// console.log(getLastThreeChars(index));
+
+// 7
+// let index = `string messenger`;
+// function getSubstringFromSecondIndex(str) {
+//   return str.substring(2, str.length);
+// }
+// console.log(getSubstringFromSecondIndex(index));
+
+// 1
+// function convertToUpperCase(str) {
+//   str = "Hello World!";
+//   let result = str.toUpperCase();
+//   console.log(result);
+// }
+// convertToUpperCase();
+
+// 2
+// function convertToLowerCase(str) {
+//   str = "Hello World!";
+//   let result = str.toLowerCase();
+//   console.log(result);
+// }
+// convertToLowerCase();
+
+// 3
+// let index1 = `sixty `;
+// let index2 = `nine`;
+// function concatStrings(str1, str2) {
+//   return str1.concat(str2);
+// }
+// console.log(concatStrings(index1, index2));
+
+// 4
+// let index2 = `     nine                                       `;
+// function trimString(str) {
+//   return str.trim();
+// }
+// console.log(trimString(index2));
+
+// 5
+// let index = ``;
+// function trimString(str) {
+//   return str.trim();
+// }
+// console.log(trimString(index));
+
+// 6
+// let index = `string`;
+// function padStringEnd(str) {
+//   return str.padEnd(4);
+// }
+// console.log(padStringEnd)
+
+// 7
+// let index1 = `sixty `;
+// function trimEndStrings(str1) {
+//   return str1.trimEnd();
+// }
+// console.log(EndStrings(index1));
+
+// 8
+// let index1 = `sixty `;
+// function trimStartStrings(str1) {
+//   return str1.trimStart();
+// }
+// console.log(trimStartStrings(index1));
+
+// 9
+// let index1 = `sixty `;
+// function trimStartStrings(str1) {
+//   return str1.trimStart();
+// }
+// console.log(trimStartStrings(index1));
+
+// 10
+// let index = `dimik     `;
+// function padStringWithSpacesEnd(str) {
+//   return str.padEnd();
+// }
+// console.log(padStringWithSpacesEnd(index));
+
+// 1
+// let index = `peach `;
+// let num = 12;
+// function repeatString(str, num) {
+//   return str.repeat(num);
+// }
+// console.log(repeatString(index, num));
+
+// 2
+// let str = `apple peach`;
+// function replaceAppleWithOrange(str) {
+//   return str.replace(`apple`, `orange`);
+// }
+// console.log(replaceAppleWithOrange(str));
+
+// 3
+// let str = `a b c`;
+// function replaceFirstSmallAToBigA(str) {
+//   return str.replace(`a`, `A`);
+// }
+// console.log(replaceFirstSmallAToBigA(str));
+
+// 4
+// let str = `dog cat cat kapibara`;
+// function replaceAllCatsWithDogs(str) {
+//   return str.replaceAll(`cat`, `dog`);
+// }
+// console.log(replaceAllCatsWithDogs(str));
+
+// 5
+// let str = `ae born care`;
+// function replaceAllSmallEToBigE(str) {
+//   return str.replaceAll(`e`, `E`);
+// }
+// console.log(replaceAllSmallEToBigE(str));
+
+// 6
+// let arr = `Array`;
+// function splitBySpaces(str) {
+//   return str.split(" ");
+// }
+// console.log(splitBySpaces(arr));
+
+// 7
+// let arr = `Array, string`;
+// function splitByCommas(str) {
+//   return str.split(",");
+// }
+// console.log(splitByCommas(arr));
+
+// 8
+// let arr = `Array, string`;
+// function splitByEachCharacter(str) {
+//   return str.split("");
+// }
+// console.log(splitByEachCharacter(arr));
+
+// 9
+// let arr = `Array, string,`;
+// function splitByDelimiter(str) {
+//   return str.split(`,`);
+// }
+// console.log(splitByDelimiter(arr));
+
+// 10
+// let arr = `Array, string,`;
+// function processString(str) {
+//   return str.replaceAll(`a`, `*`).split("");
+// }
+// console.log(processString(arr));
+
+// 1
+// let arr = `Array string`;
+// function processString(str = ``) {
+//   return `${str.toUpperCase().split("")}`;
+// }
+// console.log(processString(arr));
+
+// 2
+// let arr1 = [`string`, `arr`];
+// function joinArrayWithLength(arr = ``) {
+//   let length1 = arr[0].length;
+//   let lendth2 = arr[1].length;
+//   arr.toString();
+//   console.log(arr, length1, lendth2);
+// }
+// joinArrayWithLength(arr1);
+
+// 3
+// let arr = [`big`, `String`];
+// function cleanArrayToString(str) {
+//   let res = str[0] + str[1];
+//   return res.trim();
+// }
+// console.log(cleanArrayToString(arr));
+
+// 4
+// let arr = `stringArr`;
+// function stringToUnicodeArray(str) {
+//   str.split("");
+//   for (const i of str) {
+//     console.log(i.charCodeAt());
+//   }
+// }
+// stringToUnicodeArray(arr);
+
+// 5
